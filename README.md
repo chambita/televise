@@ -14,4 +14,4 @@
  */
 
 USAGE
-$televise({id: 'id#'}, height, width)
+$televise([id], height, width)
