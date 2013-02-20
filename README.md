@@ -15,7 +15,15 @@
 
 
 SUPPORT
-- Currently supports Youtube & Vimeo
+- Currently supports:
+--- Youtube
+--- Vimeo
+--- Dailymotion
+--- BlipTV
+--- Yahoo Screen (USA Only)
+--- Veoh
+--- Viddler
+
 - Supports multiple ids, one service at a time
 
 USAGE
