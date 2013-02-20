@@ -1,5 +1,5 @@
 /**
- * Televise.js : Embed Youtube Videos with ease.
+ * Televise.js : Embed online videos with ease.
  * Copyright 2013, Jared Abbott (http://github.com/o0110o)
  *05/02/13
  *
@@ -13,5 +13,11 @@
  * @license       MIT License (http://www.opensource.org/licenses/mit-license.php)
  */
 
+
+SUPPORT
+- Currently supports Youtube & Vimeo
+- Supports multiple ids, one service at a time
+
 USAGE
-$televise([id], height, width)
+
+$televise( [id], height, width, service )
