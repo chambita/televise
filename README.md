@@ -20,4 +20,4 @@ SUPPORT
 
 USAGE
 
-$televise( [id], height, width, service )
+$televise( [id], service, height, width )
