@@ -1,4 +1,4 @@
-	/**
+/**
  * Televise.js : Embed online videos with ease.
  * Copyright 2013, Jared Abbott (http://github.com/o0110o)
  *20/02/13
@@ -12,7 +12,6 @@
  * @since         Televise v1.0.2
  * @license       MIT License (http://www.opensource.org/licenses/mit-license.php)
  */
- 
 var $televise = function ( id, service, height, width ) {
 	if(!height){ height = '280'; }
 	if(!width){ width = '360'; }
