@@ -1,47 +1,38 @@
-Televise.js
+Clock.js
 -----------
-Televise is a JavaScript plugin for embedding online videos with ease.<br>
-URL: http://o0110o.github.com/televise
+Tick-tock it's a clock.<br>
+URL: http://o0110o.github.com/clock
 
 Usage
 -----
-$televise( [id], service, height, width )
+$clock( mode, pivot )
+[Pivot refers to 'AM/PM' & accepts a value of 'true' or 'false']
 
-What Services Does Televise Support?
+Clock has 4 modes:
 ------------------------------------
-* Youtube
-* Vimeo
-* Dailymotion
-* BlipTV
-* Yahoo Screen (USA Only)
-* Veoh
-* Viddler
-* Justin.tv
-* Supports multiple ids, one service at a time
+* '0' or '' returns the current calendar date in readable format.
+* '1' returns the hours & minutes in readable format.
+* '2' returns the current calendar date + hours, minutes & seconds in readable format.
+* '3' returns the current calendar date + hours & minutes in readable format.
 
 Browser Compatibility
 ---------------------
-* Televise should work with most browsers
+* Clock should work with most browsers
 
 Bug tracker
 -----------
 Have a bug? Please create an issue here on GitHub!<br>
-URL: https://github.com/o0110o/televise/issues
-
-Mailing list
-------------
-Have a question? Ask on our mailing list!<br>
-EMAIL: televise-js@googlegroups.com
+URL: https://github.com/o0110o/clock/issues
 
 Copyright and License
 ---------------------
-Televise.js : Embed online videos with ease.<br>
+Clock.js : Tick-tock it's a clock.<br>
 Copyright 2013, Jared Abbott (http://github.com/o0110o)<br>
 First Upload: 20/02/13<br>
 Licensed under The MIT License<br>
 Redistributions of files must retain the above copyright notices.<br>
 @copyright     Copyright 2012, Jared Abbott (http://github.com/o0110o)<br>
-@link          http://github/o0110o/televise<br>
-@package       Televise v1.0.2<br>
-@since         Televise v1.0.2<br>
+@link          http://github/o0110o/clock<br>
+@package       Clock v1.0.1<br>
+@since         Clock v1.0.0<br>
 @license       MIT License (http://www.opensource.org/licenses/mit-license.php)<br>
