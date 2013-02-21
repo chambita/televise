@@ -3,7 +3,7 @@ Televise.js
 Televise is a JavaScript plugin for embedding online videos with ease.<br>
 URL: http://o0110o.github.com/televise
 
-USAGE
+Usage
 -----
 $televise( [id], service, height, width )
 
