@@ -9,7 +9,7 @@
  * @copyright     Copyright 2012, Jared Abbott (http://github.com/o0110o)
  * @link          http://github/o0110o/televise
  * @package       Televise v1.0.2
- * @since         Televise v1.0.2
+ * @since         Televise v1.0.0
  * @license       MIT License (http://www.opensource.org/licenses/mit-license.php)
  */
 var $televise = function ( id, service, height, width ) {
