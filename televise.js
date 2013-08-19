@@ -6,7 +6,7 @@
  * Licensed under The MIT License
  * Redistributions of files must retain the above copyright notices.
  *
- * @copyright     Copyright 2012, Jared Abbott (http://github.com/o0110o)
+ * @copyright     Copyright 2013, Jared Abbott (http://github.com/o0110o)
  * @link          http://github/o0110o/televise
  * @package       Televise v1.0.2
  * @since         Televise v1.0.0
@@ -23,6 +23,8 @@ var $televise = function ( id, service, height, width ) {
 	else if( service == 'yahooscreen' ) { var url = 'http://d.yimg.com/nl/vyc/site/player.html#vid='; }
 	else if( service == 'veoh' ) { var url = 'http://www.veoh.com/static/swf/veoh/SPL.swf?videoAutoPlay=0&permalinkId='; }
 	else if( service == 'viddler' ) { var url = 'http://www.viddler.com/simple/'; }
+	else if( service == 'livestream' ) { var url = 'http://cdn.livestream.com/embed/'; }
+	else if( service == 'ustream' ) { var url = 'http://www.ustream.tv/embed/'; }
 	else if( service == 'justintv' ) { var url = 'http://www.justin.tv/widgets/live_embed_player.swf?start_volume=0.5&amp;hostname=www.justin.tv&amp;auto_play=false&amp;channel='; }
 	for(var i = 0; i < id.length; i++){
 		document.write("<iframe type='text/html' src='"+url+id[i]+"' frameborder='0' height='"+height+"' width='"+width+"' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>");
